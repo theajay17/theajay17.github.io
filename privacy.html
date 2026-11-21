@@ -58,6 +58,9 @@
     can be applied.</li>
     <li><strong>Device data:</strong> notification token, online status and last-seen
     time.</li>
+    <li><strong>Free-trial check:</strong> a one-way, scrambled code made from your
+    phone's Android ID, kept only to give the free trial once per phone. The Android ID
+    itself never leaves your phone, and the code is not linked to your account.</li>
     <li><strong>Crash reports:</strong> if the app crashes or hits an error, Firebase
     Crashlytics records what went wrong, where in the app it happened, and your
     device model, operating system version and app version, so we can fix it. Crash
@@ -110,8 +113,8 @@
     <li>Your purchases are linked to your Bongo account ID, which we share with
     RevenueCat so that a subscription works only on the account that bought it.</li>
     <li>We use this data only to unlock Bongo Pro, show your plan status, prevent
-    fraud and offer the free trial only once per account. Google Play applies
-    its own limit of one free trial per Google account.</li>
+    fraud and offer the free trial only once per account and once per phone. Google
+    Play applies its own limit of one free trial per Google account.</li>
   </ul>
   <p>Google's handling of your payment data is covered by Google's own Privacy Policy
   and the Google Play Terms of Service. RevenueCat handles purchase data under its own
